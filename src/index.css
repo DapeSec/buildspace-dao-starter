@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #21115a;
   color: #fff;
   overflow-x: hidden;
 }
@@ -115,16 +115,19 @@ h1 {
 }
 
 button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
-  border: none;
+  font-size: 16px;
   font-weight: bold;
-  font-family: inherit;
-  padding: 1.2rem 2rem;
-  text-transform: uppercase;
-  border-radius: 3rem;
-  font-size: 1.2rem;
+  color: white;
+  background: -webkit-linear-gradient(left, rgb(151, 93, 16), #362203);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
 }
 
 button:hover {
